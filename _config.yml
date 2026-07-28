@@ -24,8 +24,8 @@ repository               : "academicpages/academicpages.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Your Sidebar Name"
-  pronouns         : "Prof."  
+  name             : "prof. Ridho Hendra Yoga Perdana"
+  #pronouns         : "Prof."  
   bio              : "Short biography for the left-hand sidebar"
   location         : "Busan, Republic of Korea"
   employer         : "Dong-Eui University"
@@ -45,6 +45,9 @@ author:
   researchgate     : "https://www.researchgate.net/profile/Ridho-Hendra-Yoga-Perdana?ev=hdr_xprf"
   scopus           : "https://www.scopus.com/authid/detail.uri?authorId=57203121335"
   #zotero           : # URL
+  sciprofile        : "https://sciprofiles.com/profile/ridhohendrayogaperdana"
+  webofscience      : "https://www.webofscience.com/wos/author/record/AAB-6224-2021"
+  
 
 
   # Repositories and software development
