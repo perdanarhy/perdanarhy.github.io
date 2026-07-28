@@ -9,9 +9,9 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "Ridho Hendra Yoga Perdana / Site Title"
+title                    : "Personal Website"
 title_separator          : "-"
-name                     : &name "Your Name"
+name                     : &name "Prof. Ridho Hendra Yoga Perdana"
 description              : &description "Your Name's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
 url                      : https://academicpages.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
@@ -25,26 +25,26 @@ author:
   # Biographic information
   avatar           : "profile.png"
   name             : "Your Sidebar Name"
-  pronouns         : # example: "she/her"  
+  pronouns         : "Prof."  
   bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
-  uri              : # URL
-  email            : "none@example.org" 
+  location         : "Busan, Republic of Korea"
+  employer         : "Dong-Eui University"
+  #uri              : URL
+  email            : "perdanarhy@ieee.org" 
 
   # Academic websites
-  academia         : # URL
-  arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
-  inspire-hep      : # URL
-  impactstory      : # URL
-  orcid            : "https://orcid.org/yourorcidurl"
-  semantic         : # URL
-  ssrn             : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  researchgate     : # URL
-  scopus           : # URL
-  zotero           : # URL
+  #academia         : # URL
+  #arxiv            : # URL - Update with the correct link to your profile
+  googlescholar    : "https://scholar.google.com/citations?user=jyQCQcgAAAAJ&hl=en&authuser=1"
+  #inspire-hep      : # URL
+  #impactstory      : # URL
+  orcid            : "https://orcid.org/0000-0002-1680-1190"
+  #semantic         : # URL
+  #ssrn             : # URL
+  #pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  researchgate     : "https://www.researchgate.net/profile/Ridho-Hendra-Yoga-Perdana?ev=hdr_xprf"
+  scopus           : "https://www.scopus.com/authid/detail.uri?authorId=57203121335"
+  #zotero           : # URL
 
 
   # Repositories and software development
