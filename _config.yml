@@ -87,11 +87,13 @@ author:
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
-  manuscripts:
-    title: 'International Journal Papers'    
+  international-journals:
+    title: 'International Journal Papers'
+  domestic-journals:
     title: 'Domestic Journal Papers'
-  conferences:
-    title: 'international Conference Papers'
+  international-conferences:
+    title: 'International Conference Papers'
+  domestic-conferences:
     title: 'Domestic Conference Papers'
   patents:
     title: 'Patents'

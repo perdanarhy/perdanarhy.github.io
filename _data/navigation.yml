@@ -9,18 +9,20 @@
 
 main:
   - title: "Publications"
-    url: /publications/
-    children:
-      - title: "International Journal Papers"
-        url: /publications/int-journal-articles/
-      - title: "International Conference Papers"
-        url: /publications/int-conference-papers/
-      - title: "Domestic Journal Papers"
-        url: /publications/dom-journal-articles/
-      - title: "Domestic Conference Papers"
-        url: /publications/dom-conference-papers/
-      - title: "Patents"
-        url: /publications/patents/
+  url: /publications/
+  children:
+    - title: "All Publications"
+      url: /publications/
+    - title: "International Journal Papers"
+      url: /publications/#international-journals
+    - title: "Domestic Journal Papers"
+      url: /publications/#domestic-journals
+    - title: "International Conference Papers"
+      url: /publications/#international-conferences
+    - title: "Domestic Conference Papers"
+      url: /publications/#domestic-conferences
+    - title: "Patents"
+      url: /publications/#patents
 
   - title: "Talks"
     url: /talks/    
