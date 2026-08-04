@@ -9,8 +9,8 @@
 
 main:
   - title: "Publications"
-  url: /publications/
-  children:
+    url: /publications/
+    children:
     - title: "All Publications"
       url: /publications/
     - title: "International Journal Papers"
