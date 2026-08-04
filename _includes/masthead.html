@@ -17,26 +17,34 @@
 
             <li class="masthead__menu-item {% if link.children %}masthead__menu-item--dropdown{% endif %} {% if page.url contains link.url and link.url != '/' %}selected{% endif %}">
               {% if link.children %}
-                <details class="nav-dropdown">
-                  <summary>{{ link.title }}</summary>
+                  <div class="nav-dropdown">
+                    <a
+                      class="nav-dropdown__trigger"
+                      href="{{ domain }}{{ link.url }}"
+                      aria-haspopup="true"
+                    >
+                      {{ link.title }}
+                    </a>
 
-                  <ul class="nav-dropdown__menu">
-                    {% for child in link.children %}
-                      {% if child.url contains 'http' %}
-                        {% assign child_domain = '' %}
-                      {% else %}
-                        {% assign child_domain = base_path %}
-                      {% endif %}
+                    <ul class="nav-dropdown__menu">
+                      {% for child in link.children %}
+                        {% if child.url contains 'http' %}
+                          {% assign child_domain = '' %}
+                        {% else %}
+                          {% assign child_domain = base_path %}
+                        {% endif %}
 
-                      <li>
-                        <a href="{{ child_domain }}{{ child.url }}">
-                          {{ child.title }}
-                        </a>
-                      </li>
-                    {% endfor %}
-                  </ul>
-                </details>
-              {% else %}
+                        <li>
+                          <a href="{{ child_domain }}{{ child.url }}">
+                            {{ child.title }}
+                          </a>
+                        </li>
+                      {% endfor %}
+                    </ul>
+                  </div>
+                {% else %}
+                  <a href="{{ domain }}{{ link.url }}">{{ link.title }}</a>
+                {% endif %}
                 <a href="{{ domain }}{{ link.url }}">{{ link.title }}</a>
               {% endif %}
             </li>
