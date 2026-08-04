@@ -147,3 +147,33 @@
 .page__footer-follow .social-icons {
   display: none !important; /* Sembunyikan ikon raksasa di footer jika ada */
 }
+
+/* Open the publication dropdown on mouse hover */
+@media (hover: hover) and (pointer: fine) {
+  .nav-dropdown > .nav-dropdown__menu {
+    display: block !important;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-8px);
+    pointer-events: none;
+    transition:
+      opacity 0.18s ease,
+      transform 0.18s ease,
+      visibility 0.18s ease;
+  }
+
+  .masthead__menu-item--dropdown:hover .nav-dropdown__menu {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+    pointer-events: auto;
+  }
+
+  .nav-dropdown[open] > summary::after {
+    content: " ▾";
+  }
+
+  .masthead__menu-item--dropdown:hover .nav-dropdown > summary::after {
+    content: " ▴";
+  }
+}
