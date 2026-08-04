@@ -1,0 +1,18 @@
+---
+layout: archive
+---
+
+{% include base_path %}
+
+{% assign publication_found = false %}
+
+{% for post in site.publications reversed %}
+  {% if post.category == page.category_key %}
+    {% assign publication_found = true %}
+    {% include archive-single.html %}
+  {% endif %}
+{% endfor %}
+
+{% unless publication_found %}
+  <p>No publications are available in this category.</p>
+{% endunless %}
