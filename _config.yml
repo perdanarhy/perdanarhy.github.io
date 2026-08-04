@@ -89,10 +89,10 @@ author:
 publication_category:
   manuscripts:
     title: 'International Journal Papers'    
-    title2: 'Domestic Journal Papers'
+    title: 'Domestic Journal Papers'
   conferences:
     title: 'international Conference Papers'
-    title2: 'Domestic Conference Papers'
+    title: 'Domestic Conference Papers'
   patents:
     title: 'Patents'
 
