@@ -87,12 +87,14 @@ author:
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
-  books:
-    title: 'Books'
   manuscripts:
     title: 'International Journal Papers'    
+    title2: 'Domestic Journal Papers'
   conferences:
     title: 'international Conference Papers'
+    title2: 'Domestic Conference Papers'
+  patents:
+    title: 'Patents'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews

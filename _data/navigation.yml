@@ -10,6 +10,17 @@
 main:
   - title: "Publications"
     url: /publications/
+    children:
+      - title: "International Journal Papers"
+        url: /publications/int-journal-articles/
+      - title: "International Conference Papers"
+        url: /publications/int-conference-papers/
+      - title: "Domestic Journal Papers"
+        url: /publications/int-journal-articles/
+      - title: "Domestic Conference Papers"
+        url: /publications/int-conference-papers/
+      - title: "Patents"
+        url: /publications/patents/
 
   - title: "Talks"
     url: /talks/    
