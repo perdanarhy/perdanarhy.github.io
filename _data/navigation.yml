@@ -16,9 +16,9 @@ main:
       - title: "International Conference Papers"
         url: /publications/int-conference-papers/
       - title: "Domestic Journal Papers"
-        url: /publications/int-journal-articles/
+        url: /publications/dom-journal-articles/
       - title: "Domestic Conference Papers"
-        url: /publications/int-conference-papers/
+        url: /publications/dom-conference-papers/
       - title: "Patents"
         url: /publications/patents/
 
