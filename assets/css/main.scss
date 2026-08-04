@@ -252,3 +252,9 @@
   pointer-events: auto !important;
   cursor: pointer !important;
 }
+
+/* Justified text on the About page */
+.about-justify p {
+  text-align: justify;
+  text-justify: inter-word;
+}
