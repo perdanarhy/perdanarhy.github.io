@@ -232,3 +232,23 @@
   transform: none;
   pointer-events: auto;
 }
+
+/* Keep Publications and all dropdown items at normal font weight */
+.masthead__menu-item--dropdown,
+.masthead__menu-item--dropdown a,
+.masthead__menu-item--dropdown.selected a,
+.greedy-nav .nav-dropdown__menu li,
+.greedy-nav .nav-dropdown__menu li:first-child,
+.greedy-nav .nav-dropdown__menu a {
+  font-weight: 400 !important;
+}
+
+/* Remove the active underline and keep Publications clickable */
+.masthead__menu-item--dropdown.selected
+  > .nav-dropdown
+  > .nav-dropdown__trigger {
+  font-weight: 400 !important;
+  border-bottom: 0 !important;
+  pointer-events: auto !important;
+  cursor: pointer !important;
+}
