@@ -259,6 +259,17 @@
   text-justify: inter-word;
 }
 
-.author__avatar img {
-  border-radius: 1px !important;
+/* Force profile image to remain rectangular */
+html body .author__avatar {
+  overflow: visible !important;
+  border-radius: 0 !important;
+  clip-path: none !important;
+}
+
+html body .author__avatar img {
+  width: 100% !important;
+  height: auto !important;
+  border-radius: 0 !important;
+  clip-path: none !important;
+  object-fit: contain !important;
 }
