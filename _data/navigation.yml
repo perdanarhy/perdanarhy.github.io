@@ -9,38 +9,35 @@
 
 main:
   - title: "Publications"
-    url: /publications/
+    url: "/publications/"
     children:
-    - title: "All Publications"
-      url: /publications/
-    - title: "International Journal Papers"
-      url: /publications/#international-journals
-    - title: "Domestic Journal Papers"
-      url: /publications/#domestic-journals
-    - title: "International Conference Papers"
-      url: /publications/#international-conferences
-    - title: "Domestic Conference Papers"
-      url: /publications/#domestic-conferences
-    - title: "Patents"
-      url: /publications/#patents
+      - title: "All Publications"
+        url: "/publications/"
+      - title: "International Journal Papers"
+        url: "/publications/#international-journals"
+      - title: "Domestic Journal Papers"
+        url: "/publications/#domestic-journals"
+      - title: "International Conference Papers"
+        url: "/publications/#international-conferences"
+      - title: "Domestic Conference Papers"
+        url: "/publications/#domestic-conferences"
+      - title: "Patents"
+        url: "/publications/#patents"
 
   - title: "Talks"
-    url: /talks/    
+    url: "/talks/"
 
   - title: "Teaching"
-    url: /teaching/    
-    
+    url: "/teaching/"
+
   - title: "Portfolio"
-    url: /portfolio/
-        
+    url: "/portfolio/"
+
   - title: "Blog Posts"
-    url: /year-archive/
-    
+    url: "/year-archive/"
+
   - title: "CV"
-    url: /cv/
-    
-  # - title: "CV"
-  #   url: /cv-json/
+    url: "/cv/"
     
   - title: "Guide"
     url: /markdown/
